@@ -293,6 +293,7 @@ html {
     letter-spacing: -0.05em
 }
 
+
 body {
     color: #333333;
     font-size: 100%;
@@ -310,6 +311,23 @@ img {
     max-width: 100%;
     height: auto
 }
+
+#galeria img{
+    width: 100%;
+    height: 300px;
+
+}
+
+#galeria .col-lg-4{
+    margin: 0 !important;
+    padding: 25px;
+}
+
+#galeria img:hover{
+    transform: scale(1.9);
+    border: 5px solid rgb(213, 133, 216);
+}
+
 
 .wrap {
     padding: 0em 2em

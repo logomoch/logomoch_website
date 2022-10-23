@@ -193,7 +193,7 @@ $('.work>a').mouseenter( function(){
 
 
 var newsletterBtn = $('.menu-item>a[href=#newsletter], #newsletterlink');
-var contactBtn = $(".menu-item a[href='http://jeanjullien/contact/'], .menu-item a[href='https://www.jeanjullien.com/contact/']");
+var contactBtn = $(".menu-item a[href='http://logomoch.github.io/logomoch_website/contact/'], .menu-item a[href='https://logomoch.github.io/logomoch_website/contact/']");
 
 $("#newsletterlink").appendTo("#header #menu-main-menu");
 contactBtn.mouseover(function(){
@@ -258,23 +258,6 @@ $("body.single-work ").bind('mousewheel DOMMouseScroll', function(event){
 });*/
 
 
-
-
-// Debug/design tool
-/*$( "html" ).keydown(function(e) {
-  //console.log(e.keyCode);
-  var base = "http://jeanjullien/wp-content/themes/jeanjullien-grate/library/images/";
-  if (e.keyCode == 65){
-    //$worklistmain.masonry('layout');
-    $("body").css({"background-image": "url('"+base+"/about.jpg')"});
-  }
-  if (e.keyCode == 83)
-    $("body").css({"background-image": "url('"+base+"/homelarge.jpg')"});
-  if (e.keyCode == 68)
-    $("body").css({"background-image": "url('"+base+"/homemobile.jpg')"});
-  if (e.keyCode == 70)
-    $("body").css({"background-image": "none"});
-});*/
 
 
 

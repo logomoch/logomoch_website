@@ -497,17 +497,17 @@ h6, .h6 {
 }
 
 .contactmain h3 {
-    margin-top: 2.4em;
-    margin-bottom: 1.4em
+    margin-top: 2em;
+    margin-bottom: 1em
 }
 
 .contactmain h3:first-child {
-    margin-top:8em
+    margin-top:0em
 }
 
 .contactmain p {
     margin-top: 0;
-    margin-bottom: 1.1em
+    margin-bottom: 1em
 }
 
 .contactmain a {
